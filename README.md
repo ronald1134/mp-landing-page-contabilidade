@@ -15,27 +15,15 @@ Tenha um editor de código pronto para escrever HTML e CSS (VSCode, Sublime, etc
      style.css
 ```
 ## 🔨 Requisitos
-
-### Requisito 1 - Cabeçalho no topo da página
-- 	Crie um cabeçalho no topo da página com links para `Início`, `Perfil`, `Serviços`, `Clientes` e `Contato`.
-
-### Requisito 2 - Seção de Apresentação
-
-- Adicione uma imagem de fundo que cubra toda a largura da tela. Insira o nome da empresa `Salles Contabilidade` com uma breve frase de destaque: `Experiência. Compromisso. Valor.`.
-
-### Requisito 3 - Seção Perfil da Empresa:
-Crie uma área que descreva a fundação e os serviços da empresa. Insira uma imagem ao lado do texto para criar um layout dividido.
-
-### Requisito 4 - Seção de Serviços:
-
-Apresente os serviços oferecidos em uma lista vertical com números. Cada item deve conter um título e uma breve descrição.
-Aplique  o efeito de `hover` nos botões de `saiba mais` para mudar de cor ao passar o mouse.
-
-### Requisito 5 - Seção de Clientes:
-Adicione um card para cada cliente que a empresa já atendeu, utilizando `<img>` e estilizando com CSS para que as imagens fiquem lado a lado.
-
-### Requisito 6 - Rodapé:
-Adicione o rodapé com o endereço, telefone, e-mail e links para as redes sociais. Use ícones de redes sociais e organize-os horizontalmente.
+- Crie um cabeçalho no topo da página com links para `Início`, `Perfil`, `Serviços`, `Clientes` e `Contato`.
+- Crie a seção de apresentação, adicione uma imagem de fundo que cubra toda a largura da tela.
+	- Insira o nome da empresa `Salles Contabilidade` com uma breve frase de destaque: `Experiência. Compromisso. Valor.`.
+- Crie uma área que descreva a fundação e os serviços da empresa. Insira uma imagem ao lado do texto para criar um layout dividido.
+- Apresente os serviços oferecidos em uma lista vertical com números.
+	- Cada item deve conter um título e uma breve descrição.
+	- Aplique  o efeito de `hover` nos botões de `saiba mais` para mudar de cor ao passar o mouse.
+- Adicione um card para cada cliente que a empresa já atendeu, utilizando `<img>` e estilizando com CSS para que as imagens fiquem lado a lado.
+- Adicione o rodapé com o endereço, telefone, e-mail e links para as redes sociais. Use ícones de redes sociais e organize-os horizontalmente.
 
 	> 👀 **Dicas:**
 	> - Utilize flexbox para alinhar os itens horizontalmente.

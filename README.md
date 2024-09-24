@@ -1,4 +1,4 @@
-c# Nome do Mini Projeto
+# Landing page de contabilidade
 
 Este projeto visa desenvolver um site simples para um escritório de contabilidade, utilizando apenas HTML e CSS. O design inclui uma página inicial com informações sobre a empresa, serviços oferecidos e clientes.
 
@@ -6,10 +6,13 @@ Este projeto visa desenvolver um site simples para um escritório de contabilida
 ## 🤓 Antes de começar
 
 Tenha um editor de código pronto para escrever HTML e CSS (VSCode, Sublime, etc).
-Crie uma estrutura básica de pasta:
-/images para armazenar as imagens.
-index.html para o código HTML.
-style.css para o código CSS.
+- Crie uma estrutura básica de pasta:
+```
+src
+     /images 
+    /index.html 
+    /style.css
+```
 
 ## 🔨 Requisitos
 
@@ -40,8 +43,8 @@ Adicione o rodapé com o endereço, telefone, e-mail e links para as redes socia
 
 ## 🔨 Desafio extra para quem quer ir além
 
--  uma animação simples no título da empresa ao carregar a página usando `@keyframes` no CSS.
 - Faça com que o design seja responsivo, utilizando `@media queries` para ajustar o layout em dispositivos móveis.
+-  Realize uma animação simples no título da empresa ao carregar a página usando `@keyframes` no CSS.
 
 
 ## 🎨 Design Sugerido
@@ -56,15 +59,11 @@ Temos uma sugestão de design no Figma. Entretanto, fique à vontade para montar
 
 ### O que você irá praticar:
 
-#### React
+#### HTML
+Estruturar páginas de forma organizada.
 
-- Habilidade 1 do React
-- Habilidade 2
+#### CSS
+- Aplicação de layouts flexíveis com `display: flex`
+- Estilização de elementos de texto e botões.
+- Efeitos de hover
 
-#### TailwindCSS
-
-- Habilidade 1 do TailwindCSS
-
-### Pré requisitos
-
-(coloque aqui se houver algum)

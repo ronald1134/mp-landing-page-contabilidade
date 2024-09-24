@@ -17,7 +17,7 @@ Tenha um editor de código pronto para escrever HTML e CSS (VSCode, Sublime, etc
 ## 🔨 Requisitos
 
 ### Requisito 1 - Cabeçalho no topo da página
-- 	Crie um cabeçalho no topo da página com links para "Início", "Perfil", "Serviços", "Clientes" e "Contato".
+- 	Crie um cabeçalho no topo da página com links para `Início`, `Perfil`, `Serviços`, `Clientes` e `Contato`.
 
 ### Requisito 2 - Seção de Apresentação
 

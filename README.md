@@ -1,4 +1,4 @@
-# Nome do Mini Projeto
+c# Nome do Mini Projeto
 
 Este projeto visa desenvolver um site simples para um escritório de contabilidade, utilizando apenas HTML e CSS. O design inclui uma página inicial com informações sobre a empresa, serviços oferecidos e clientes.
 
@@ -26,8 +26,13 @@ Crie uma área que descreva a fundação e os serviços da empresa. Insira uma i
 ### Requisito 4 - Seção de Serviços:
 
 Apresente os serviços oferecidos em uma lista vertical com números. Cada item deve conter um título e uma breve descrição.
-Aplique `hover effects` nos botões de `Saiba Mais` para mudar de cor ao passar o mouse.
+Aplique  o efeito de `hover` nos botões de `saiba mais` para mudar de cor ao passar o mouse.
 
+### Requisito 5 - Seção de Clientes:
+Adicione um card para cada cliente que a empresa já atendeu, utilizando `<img>` e estilizando com CSS para que as imagens fiquem lado a lado.
+
+### Requisito 6 - Rodapé:
+Adicione o rodapé com o endereço, telefone, e-mail e links para as redes sociais. Use ícones de redes sociais e organize-os horizontalmente.
 
 	> 👀 **Dicas:**
 	> - Utilize flexbox para alinhar os itens horizontalmente.
@@ -35,10 +40,9 @@ Aplique `hover effects` nos botões de `Saiba Mais` para mudar de cor ao passar 
 
 ## 🔨 Desafio extra para quem quer ir além
 
-(Essa seção é opcional)
+-  uma animação simples no título da empresa ao carregar a página usando `@keyframes` no CSS.
+- Faça com que o design seja responsivo, utilizando `@media queries` para ajustar o layout em dispositivos móveis.
 
-- Requisito extra 1. 
-- Requisito extra 2.
 
 ## 🎨 Design Sugerido
 

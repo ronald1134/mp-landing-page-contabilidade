@@ -1,11 +1,12 @@
-# Landing page de contabilidade
+# Página de Escritório de Contabilidade
 
-Este projeto visa desenvolver um site simples para um escritório de contabilidade, utilizando apenas HTML e CSS. O design inclui uma página inicial com informações sobre a empresa, serviços oferecidos e clientes.
+Este projeto visa desenvolver um site simples (landing page) para um escritório de contabilidade, utilizando apenas HTML e CSS. O design inclui uma página inicial com informações sobre a empresa, serviços oferecidos e clientes.
 
 
 ## 🤓 Antes de começar
 
 Tenha um editor de código pronto para escrever HTML e CSS (VSCode, Sublime, etc).
+
 - Crie uma estrutura básica de pasta:
 ```
   src/
@@ -14,7 +15,11 @@ Tenha um editor de código pronto para escrever HTML e CSS (VSCode, Sublime, etc
      index.html
      style.css
 ```
+
 ## 🔨 Requisitos
+
+Como o objetivo desse Mini Projeto é treinar suas habilidades em HTML e CSS, é importante que você tente implementar o design da forma como está no figma - você provavelmente irá encontrar muitos desafios no caminho - esta é justamente a finalidade 😉. 
+
 - Crie um cabeçalho no topo da página com links para `Início`, `Perfil`, `Serviços`, `Clientes` e `Contato`.
 - Crie a seção de apresentação, adicione uma imagem de fundo que cubra toda a largura da tela.
 	- Insira o nome da empresa `Salles Contabilidade` com uma breve frase de destaque: `Experiência. Compromisso. Valor.`.
@@ -36,7 +41,7 @@ Tenha um editor de código pronto para escrever HTML e CSS (VSCode, Sublime, etc
 
 ## 🎨 Design Sugerido
 
-Temos uma sugestão de design no Figma. Entretanto, fique à vontade para montar a aplicação conforme a sua criatividade.
+Temos uma sugestão de design no Figma. 
 
 ### Figma
 

@@ -39,7 +39,6 @@ Adicione o rodapé com o endereço, telefone, e-mail e links para as redes socia
 
 	> 👀 **Dicas:**
 	> - Utilize flexbox para alinhar os itens horizontalmente.
-	> - Dica B sobre Req 2.
 
 ## 🔨 Desafio extra para quem quer ir além
 

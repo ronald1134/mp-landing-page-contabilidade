@@ -17,12 +17,24 @@ html, body {
 }
 
 body {
+    position: relative;
     background: url("image/pexels-karolina-grabowska-4195501.jpg") no-repeat center center;
     background-size: cover;
     font-family: "Lexend", sans-serif;
+    min-height: 100vh;
+    overflow: auto;
 }
 
-/* Cabeçalho com logo à esquerda e navbar à direita */
+body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: inherit;
+    filter: blur(3px);
+    z-index: -1;
+}
+
+
 #menu {
     display: flex;
     align-items: center;
@@ -30,8 +42,6 @@ body {
     padding: 1rem 5rem;
     width: 100%;
 }
-
-
 
 .logo {
     width: 120px;
@@ -52,12 +62,13 @@ body {
     transition: all .2s;
 }
 .navbar p a:hover{
-    background-color: rgba(151, 151, 151, 0.699);
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(255, 215, 0, 0.6) inset;
     padding: .2rem 20px;
-    border-radius:  .6rem .6rem 0  0 ;
+    border-radius:  .6rem;
 }
 
-/* Conteúdo central */
+
 .name-gerente {
     display: flex;
     flex-direction: column; 
@@ -75,4 +86,73 @@ body {
     font-size: 1.5rem;
     font-family: "Oswald", sans-serif;
     color: gold;
+}
+
+
+.cards-section {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 5rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    backdrop-filter: blur(5px);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(255, 215, 0, 0.6);
+}
+
+.card h2 {
+    color: gold;
+    margin-bottom: 1rem;
+    font-family: "Oswald", sans-serif;
+}
+
+.card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #e0e0e0;
+}
+
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1.5rem 2rem;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    border-top: 1px solid rgba(255, 215, 0, 0.3);
+    backdrop-filter: blur(3px);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.footer p {
+    color: #ccc;
+    font-size: 0.9rem;
+}
+
+.social-icons a {
+    color: gold;
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: white;
 }

@@ -1,0 +1,78 @@
+/* Reset básico e fontes */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background: url("image/pexels-karolina-grabowska-4195501.jpg") no-repeat center center;
+    background-size: cover;
+    font-family: "Lexend", sans-serif;
+}
+
+/* Cabeçalho com logo à esquerda e navbar à direita */
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    width: 100%;
+}
+
+
+
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+
+.navbar {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.navbar p a {
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    color: white;
+    transition: all .2s;
+}
+.navbar p a:hover{
+    background-color: rgba(151, 151, 151, 0.699);
+    padding: .2rem 20px;
+    border-radius:  .6rem .6rem 0  0 ;
+}
+
+/* Conteúdo central */
+.name-gerente {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+}
+
+.name-gerente h1 {
+    font-size: 4rem;
+}
+
+.valores-empresa p {
+    font-size: 1.5rem;
+    font-family: "Oswald", sans-serif;
+    color: gold;
+}
